@@ -1,0 +1,123 @@
+export const clothingItems = [
+    // Watches
+    { name: "Analog Watches", categoryId: "Analog Watches", parentCategoryId: "Watches" },
+    { name: "Digital Watches", categoryId: "Digital Watches", parentCategoryId: "Watches" },
+    { name: "Smartwatches", categoryId: "Smartwatches", parentCategoryId: "Watches" },
+    { name: "Luxury Watches", categoryId: "Luxury Watches", parentCategoryId: "Watches" },
+    { name: "Casual Watches", categoryId: "Casual Watches", parentCategoryId: "Watches" },
+    { name: "Sports Watches", categoryId: "Sports Watches", parentCategoryId: "Watches" },
+    { name: "Leather Strap Watches", categoryId: "Leather Strap Watches", parentCategoryId: "Watches" },
+    { name: "Metal Strap Watches", categoryId: "Metal Strap Watches", parentCategoryId: "Watches" },
+    { name: "Chronograph Watches", categoryId: "Chronograph Watches", parentCategoryId: "Watches" },
+    { name: "Kids' Watches", categoryId: "Kids' Watches", parentCategoryId: "Watches" },
+  
+    // Bags
+    { name: "Backpacks", categoryId: "Backpacks", parentCategoryId: "Bags" },
+    { name: "Handbags", categoryId: "Handbags", parentCategoryId: "Bags" },
+    { name: "Tote Bags", categoryId: "Tote Bags", parentCategoryId: "Bags" },
+    { name: "Shoulder Bags", categoryId: "Shoulder Bags", parentCategoryId: "Bags" },
+    { name: "Messenger Bags", categoryId: "Messenger Bags", parentCategoryId: "Bags" },
+    { name: "Travel Bags", categoryId: "Travel Bags", parentCategoryId: "Bags" },
+    { name: "Laptop Bags", categoryId: "Laptop Bags", parentCategoryId: "Bags" },
+    { name: "Duffel Bags", categoryId: "Duffel Bags", parentCategoryId: "Bags" },
+    { name: "Clutches", categoryId: "Clutches", parentCategoryId: "Bags" },
+    { name: "Sling Bags", categoryId: "Sling Bags", parentCategoryId: "Bags" },
+  
+    // Hats
+    { name: "Baseball Caps", categoryId: "Baseball Caps", parentCategoryId: "Hats" },
+    { name: "Beanies", categoryId: "Beanies", parentCategoryId: "Hats" },
+    { name: "Bucket Hats", categoryId: "Bucket Hats", parentCategoryId: "Hats" },
+    { name: "Cowboy Hats", categoryId: "Cowboy Hats", parentCategoryId: "Hats" },
+    { name: "Fedoras", categoryId: "Fedoras", parentCategoryId: "Hats" },
+    { name: "Sun Hats", categoryId: "Sun Hats", parentCategoryId: "Hats" },
+    { name: "Berets", categoryId: "Berets", parentCategoryId: "Hats" },
+    { name: "Visors", categoryId: "Visors", parentCategoryId: "Hats" },
+    { name: "Panama Hats", categoryId: "Panama Hats", parentCategoryId: "Hats" },
+    { name: "Flat Caps", categoryId: "Flat Caps", parentCategoryId: "Hats" },
+  
+    // Sunglasses
+    { name: "Aviators", categoryId: "Aviators", parentCategoryId: "Sunglasses" },
+    { name: "Wayfarers", categoryId: "Wayfarers", parentCategoryId: "Sunglasses" },
+    { name: "Round Sunglasses", categoryId: "Round Sunglasses", parentCategoryId: "Sunglasses" },
+    { name: "Square Sunglasses", categoryId: "Square Sunglasses", parentCategoryId: "Sunglasses" },
+    { name: "Cat-Eye Sunglasses", categoryId: "Cat-Eye Sunglasses", parentCategoryId: "Sunglasses" },
+    { name: "Sports Sunglasses", categoryId: "Sports Sunglasses", parentCategoryId: "Sunglasses" },
+    { name: "Oversized Sunglasses", categoryId: "Oversized Sunglasses", parentCategoryId: "Sunglasses" },
+    { name: "Polarized Sunglasses", categoryId: "Polarized Sunglasses", parentCategoryId: "Sunglasses" },
+    { name: "Retro Sunglasses", categoryId: "Retro Sunglasses", parentCategoryId: "Sunglasses" },
+    { name: "Kids' Sunglasses", categoryId: "Kids' Sunglasses", parentCategoryId: "Sunglasses" },
+  
+    // Dresses
+    { name: "Casual Dresses", categoryId: "Casual Dresses", parentCategoryId: "Dresses" },
+    { name: "Evening Dresses", categoryId: "Evening Dresses", parentCategoryId: "Dresses" },
+    { name: "Cocktail Dresses", categoryId: "Cocktail Dresses", parentCategoryId: "Dresses" },
+    { name: "Maxi Dresses", categoryId: "Maxi Dresses", parentCategoryId: "Dresses" },
+    { name: "Mini Dresses", categoryId: "Mini Dresses", parentCategoryId: "Dresses" },
+    { name: "Bodycon Dresses", categoryId: "Bodycon Dresses", parentCategoryId: "Dresses" },
+    { name: "Wrap Dresses", categoryId: "Wrap Dresses", parentCategoryId: "Dresses" },
+    { name: "Shift Dresses", categoryId: "Shift Dresses", parentCategoryId: "Dresses" },
+    { name: "Sweater Dresses", categoryId: "Sweater Dresses", parentCategoryId: "Dresses" },
+    { name: "A-Line Dresses", categoryId: "A-Line Dresses", parentCategoryId: "Dresses" },
+  
+     // Sweaters
+     { name: "Cardigans", categoryId: "Cardigans", parentCategoryId: "Sweaters" },
+     { name: "Pullovers", categoryId: "Pullovers", parentCategoryId: "Sweaters" },
+     { name: "Crew Neck Sweaters", categoryId: "Crew Neck Sweaters", parentCategoryId: "Sweaters" },
+     { name: "V-Neck Sweaters", categoryId: "V-Neck Sweaters", parentCategoryId: "Sweaters" },
+     { name: "Turtleneck Sweaters", categoryId: "Turtleneck Sweaters", parentCategoryId: "Sweaters" },
+     { name: "Oversized Sweaters", categoryId: "Oversized Sweaters", parentCategoryId: "Sweaters" },
+     { name: "Cable Knit Sweaters", categoryId: "Cable Knit Sweaters", parentCategoryId: "Sweaters" },
+     { name: "Cashmere Sweaters", categoryId: "Cashmere Sweaters", parentCategoryId: "Sweaters" },
+     { name: "Wool Sweaters", categoryId: "Wool Sweaters", parentCategoryId: "Sweaters" },
+     { name: "Hooded Sweaters", categoryId: "Hooded Sweaters", parentCategoryId: "Sweaters" },
+   
+     // Skirts
+     { name: "Mini Skirts", categoryId: "Mini Skirts", parentCategoryId: "Skirts" },
+     { name: "Midi Skirts", categoryId: "Midi Skirts", parentCategoryId: "Skirts" },
+     { name: "Maxi Skirts", categoryId: "Maxi Skirts", parentCategoryId: "Skirts" },
+     { name: "Pleated Skirts", categoryId: "Pleated Skirts", parentCategoryId: "Skirts" },
+     { name: "A-Line Skirts", categoryId: "A-Line Skirts", parentCategoryId: "Skirts" },
+     { name: "Pencil Skirts", categoryId: "Pencil Skirts", parentCategoryId: "Skirts" },
+     { name: "Denim Skirts", categoryId: "Denim Skirts", parentCategoryId: "Skirts" },
+     { name: "Wrap Skirts", categoryId: "Wrap Skirts", parentCategoryId: "Skirts" },
+     { name: "Flared Skirts", categoryId: "Flared Skirts", parentCategoryId: "Skirts" },
+     { name: "Layered Skirts", categoryId: "Layered Skirts", parentCategoryId: "Skirts" },
+   
+     // Socks
+     { name: "Ankle Socks", categoryId: "Ankle Socks", parentCategoryId: "Socks" },
+     { name: "Crew Socks", categoryId: "Crew Socks", parentCategoryId: "Socks" },
+     { name: "Knee-High Socks", categoryId: "Knee-High Socks", parentCategoryId: "Socks" },
+     { name: "No-Show Socks", categoryId: "No-Show Socks", parentCategoryId: "Socks" },
+     { name: "Compression Socks", categoryId: "Compression Socks", parentCategoryId: "Socks" },
+     { name: "Dress Socks", categoryId: "Dress Socks", parentCategoryId: "Socks" },
+     { name: "Wool Socks", categoryId: "Wool Socks", parentCategoryId: "Socks" },
+     { name: "Thermal Socks", categoryId: "Thermal Socks", parentCategoryId: "Socks" },
+     { name: "Toe Socks", categoryId: "Toe Socks", parentCategoryId: "Socks" },
+     { name: "Sports Socks", categoryId: "Sports Socks", parentCategoryId: "Socks" },
+   
+     // Belts
+     { name: "Leather Belts", categoryId: "Leather Belts", parentCategoryId: "Belts" },
+     { name: "Canvas Belts", categoryId: "Canvas Belts", parentCategoryId: "Belts" },
+     { name: "Braided Belts", categoryId: "Braided Belts", parentCategoryId: "Belts" },
+     { name: "Formal Belts", categoryId: "Formal Belts", parentCategoryId: "Belts" },
+     { name: "Casual Belts", categoryId: "Casual Belts", parentCategoryId: "Belts" },
+     { name: "Reversible Belts", categoryId: "Reversible Belts", parentCategoryId: "Belts" },
+     { name: "Elastic Belts", categoryId: "Elastic Belts", parentCategoryId: "Belts" },
+     { name: "Studded Belts", categoryId: "Studded Belts", parentCategoryId: "Belts" },
+     { name: "Chain Belts", categoryId: "Chain Belts", parentCategoryId: "Belts" },
+     { name: "Designer Belts", categoryId: "Designer Belts", parentCategoryId: "Belts" },
+   
+     // Scarves
+     { name: "Wool Scarves", categoryId: "Wool Scarves", parentCategoryId: "Scarves" },
+     { name: "Silk Scarves", categoryId: "Silk Scarves", parentCategoryId: "Scarves" },
+     { name: "Cotton Scarves", categoryId: "Cotton Scarves", parentCategoryId: "Scarves" },
+     { name: "Chiffon Scarves", categoryId: "Chiffon Scarves", parentCategoryId: "Scarves" },
+     { name: "Knitted Scarves", categoryId: "Knitted Scarves", parentCategoryId: "Scarves" },
+     { name: "Printed Scarves", categoryId: "Printed Scarves", parentCategoryId: "Scarves" },
+     { name: "Infinity Scarves", categoryId: "Infinity Scarves", parentCategoryId: "Scarves" },
+     { name: "Shawl Scarves", categoryId: "Shawl Scarves", parentCategoryId: "Scarves" },
+     { name: "Wrap Scarves", categoryId: "Wrap Scarves", parentCategoryId: "Scarves" },
+     { name: "Embroidered Scarves", categoryId: "Embroidered Scarves", parentCategoryId: "Scarves" },
+   
+];
+  
